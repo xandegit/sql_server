@@ -2,6 +2,7 @@
 SQL Server documentation
 
 #Select processes under database
+
 select * from sys.sysprocesses where dbid = DB_ID('database name')
 
 #Drop database
